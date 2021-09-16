@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/">
-            <Redirect to="/home" />
+            <Redirect  to="/home" />
           </Route>
           <Route path="/home" component={Home} />
           <Route path="/instruction" component={Insturction} />

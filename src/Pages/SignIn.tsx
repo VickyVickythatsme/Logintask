@@ -18,10 +18,13 @@ export default function Signup() {
     message: "",
     notice: false,
   });
+  function keyCompare(event:React.KeyboardEvent<HTMLInputElement>){
+    if (event.key === "Enter") compare();
+  }
   function compare() {
     if (
       userList.some(
-        (item) => item.username === username && item.password === password
+        (item) => item.username=== username.trim()  && (item.password) === password.trim() 
       )
     ) {
       setNotice({
@@ -68,6 +71,8 @@ export default function Signup() {
                   password: event.target.value,
                 })
               }
+              onkey={(event)=>
+                keyCompare(event)}
             />
             <Box
               sx={{
