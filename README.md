@@ -1,5 +1,5 @@
 # How to build Vicky's coding task locally
-### Step 1. git clone https://github.com/VickyVickythatsme/logintask.git
+### Step 1. Create new empty folder, enter folder and clone the code into it.
 
-		git commit -am "By typing this command I am saving a collection of saved files."
+		git clone https://github.com/VickyVickythatsme/logintask.git
 
