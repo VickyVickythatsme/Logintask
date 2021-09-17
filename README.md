@@ -4,11 +4,14 @@
 
 		git clone https://github.com/VickyVickythatsme/logintask.git
 		
-### Step 2. Open folder /logintask in Vscode.
+### Step 2. Open /logintask in Vscode.
 
 ### Step 3. Open Terminal in Vscode, make sure you are at the folder ./logintask
 
-### Step 4. Start the project
+### Step 4. Install and Start the project
+
+		npm install
+		
 
 		npm start
 		
